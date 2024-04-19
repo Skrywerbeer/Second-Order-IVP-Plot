@@ -1,0 +1,29 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+
+	svg {
+		box-shadow: 0 5px 5px black;
+		width: 60vw;
+		background: #222222;
+	}
+	#plot {
+		stroke-width: 0.05;
+		polyline {
+		stroke: orange;
+		}
+	}
+
+	math {
+		display-style: normal;
+		font-size: 32px;
+	}
+}
+
